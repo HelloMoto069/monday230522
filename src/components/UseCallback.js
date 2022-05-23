@@ -17,14 +17,14 @@ const UseCallback = () => {
 
   return (
     <>
-      <div><h1>Main Count: {count}</h1>
-        <h1>Other Count: {otherCounter}</h1></div>
+      <div><h1>Number Of Products: {count}</h1>
+        <h1>Grocerry Products: {otherCounter}</h1></div>
       <br />
       <div className='buttons'>
 
-        <button onClick={increment}><span>+</span></button>
-        <button onClick={decrement}><span>-</span></button>
-        <button onClick={incrementOtherCounter}><span>incrementOtherCounter</span></button>
+        <button onClick={increment}><span>Add To Cart</span></button>
+        <button onClick={decrement}><span>Remove From Cart</span></button>
+        <button onClick={incrementOtherCounter}><span>Add to Grocerry</span></button>
       </div>
     </>
   )
